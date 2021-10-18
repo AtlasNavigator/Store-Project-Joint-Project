@@ -5,6 +5,12 @@ body {
 a {
   text-decoration: none;
 }
+h2{
+  color: black;
+}
+p{
+  color: black;
+}
 nav ul {
   display: flex;
   flex-wrap:wrap;
