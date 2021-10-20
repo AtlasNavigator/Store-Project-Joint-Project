@@ -47,6 +47,7 @@ nav a:hover, nav a.active {
 .card-area {
   display: flex;
   flex-flow: wrap;
+  justify-content:center;
 }
 .card {
   min-width: 350px;
