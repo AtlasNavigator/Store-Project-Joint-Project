@@ -1,3 +1,10 @@
+.browse{
+  color:black;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h1{
+  text-align:center;
+}
 body {
   color: white;
   background-color: white;
@@ -40,10 +47,6 @@ nav a:hover, nav a.active {
   color: black;
   background-color: orange;
 }
-.welcome {
-  color: black;
-  text-align: center;
-  }
 .card-area {
   display: flex;
   flex-flow: wrap;
@@ -72,14 +75,18 @@ nav a:hover, nav a.active {
 .info {
   padding: 8px;
   color: #2D3748;
+  text-align:center;
+  font-size: 22px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .listing {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: baseline;
   margin-bottom:4px;
 }
 .price {
   font-size: 24px;
   font-weight: bold;
+  text-align: center;
 }
